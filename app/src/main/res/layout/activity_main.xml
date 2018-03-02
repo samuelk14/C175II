@@ -16,7 +16,7 @@
         android:background="@drawable/boton_redondo"
         android:textColor="#ffc400"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="27dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
@@ -28,7 +28,7 @@
         android:background="@drawable/boton_redondo"
         android:textColor="#ffc400"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintLeft_toRightOf="@+id/imageView"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="27dp"
@@ -78,7 +78,7 @@
         android:id="@+id/imageView"
         android:layout_width="150dp"
         android:layout_height="120dp"
-        app:srcCompat="@drawable/cat"
+
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="26dp"
         app:layout_constraintLeft_toRightOf="@+id/boton1"
